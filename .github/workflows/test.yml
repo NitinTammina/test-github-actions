@@ -13,4 +13,4 @@ jobs:
             - name: build project
               run: yarn build
             - name: Setup finish
-              run: echo "Done!" #run dawg
+              run: echo "Done!" #run bro
