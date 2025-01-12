@@ -8,4 +8,9 @@ jobs:
             - uses: actions/setup-node@v3
               with:
                 node-version: 14
-            - run: node -v
+            - name: Install node
+              run: yarn
+            - name: build project
+              run: yarn build
+            - name: Setup finish
+              run: echo "Done!"
